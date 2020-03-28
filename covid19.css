@@ -1,0 +1,152 @@
+
+.box {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* COVID ELEMENT */
+
+.covid_indonesia {
+margin:0 auto;
+padding:10px 5px;
+width:95%;
+background: #FFF;
+color:#555;
+border: 2px solid #4fc4f6;
+border-radius: 5px;
+box-shadow:0 10px 15px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+}
+
+.covid_indonesia h2 {
+display:block;
+margin:0 auto;
+text-align:center;
+padding:0;
+font-size:14px;
+}
+
+.covid_info {
+margin:0 auto;
+width:100%;
+}
+.covid_head {
+display: inline-flex;
+}
+
+.covid_info h3 {
+font-size:12px;
+padding-bottom:5px;
+margin:0 auto;
+}
+
+.covid_list p {
+font-size:10px;
+padding:2px;
+margin:0 auto;
+
+}
+
+.covid_list {
+margin:0;
+padding:0;
+list-style-type:none;
+}
+
+.covid_close {
+color:#111;
+font-weight:700;
+float:right;
+font-size:1.5em;
+line-height:20px;
+cursor:pointer;
+position: relative;
+top: -10px;
+right: 5px;
+}
+
+.keterangan li {
+width:65px;
+text-align:center;
+display:inline-block;
+border: 1px solid #6e6464;
+}
+
+.harini {
+font-style:italic;
+}
+
+.kasus {
+border-top:10px solid #e64c65;
+
+}
+
+.jumlah_kasus {
+font-weight:700;
+color:#e64c65;
+}
+
+.positif {
+border-top:10px solid #fcb150;
+}
+
+p.jumlah_positif {
+font-weight:700;
+color:#fcb150;
+}
+
+.meninggal {
+border-top:10px solid #4fc4f6;
+}
+
+.jumlah_meninggal {
+font-weight:700;
+color: #4fc4f6;
+}
+
+.sembuh {
+border-top:10px solid #11a8ab;
+}
+
+.jumlah_sembuh {
+font-weight:700;
+color:#11a8ab;
+}
+.indicator {
+  display: inline-block;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #ff6b6b;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.is-pulsing {
+  box-shadow: 0 0 0 rgba(255, 107, 107, 0.8);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.8);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 107, 107, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 107, 107, 0);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
