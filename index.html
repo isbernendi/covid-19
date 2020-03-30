@@ -53,26 +53,35 @@ setInterval(function(){
 </head><body>	<div class="container">		<div class="row">			<div class="col-8 mr-a box-semua" id="main" style="float:none;">				<div class="row">					<div class="col-5">							<div class="row">							<div class="col-12">								<div class="logo bmh-50 text-center">					<img  src="logo.png"  style=" width:80%; max-width: 260px; height:auto;"/>							</div>					</div>						</div>                       <div class="row">					  <p style="margin-top:-55px">						<div class="bawah-judul text-grey">Masukan kode Voucher kemudian klik login</div></p></div><p style="margin-top:-5px"><div class="row"><div class="col-12"><div class="card "><div class="login"></div></div></div></div><div class="row"><div class="col-12"><div class="card "><div class="login"><form name="sendin" action="$(link-login-only)" method="post"><input type="hidden" name="username" /><input type="hidden" name="password" /><input type="hidden" name="dst" value="$(link-orig)" /><input type="hidden" name="popup" value="true" /></form><div>	<form autocomplete="off" name="login" action="$(link-login-only)" method="post"					    $(if chap-id) onSubmit="return doLogin()" $(endif)>						<input type="hidden" name="dst" value="$(link-orig)" />						<input type="hidden" name="popup" value="true" /><input style="text-align:center"type="text" class="form-control" name="username" onblur="password.value=username.value" placeholder="kode voucher" required="required" autocomplete="off"><input type="hidden" class="form-control" placeholder="Password" name="password">								<p style="margin-top:5px">									<div class="row"><button type="button" class="small-button1 " data-toggle="modal" data-target="#mlogin">List Voucher</button> 							<button type="submit" class="small-button1">Login</button>	</form></div></div><p style="margin-top:5px"><p style="font-size:12px;text-align:center"><font color="#777">					Uji coba gratis klik <font color="#4fc4f6"><b> . Gratis</b></font><br /></font></p><p style="margin-top:5px"><div class="row"><div class="col-12"><div class="box"><div class="covid_indonesia"> 
 <span class="covid_close" onclick="this.parentElement.style.display='none';">&times;</span>
         <h1>STAY AT HOME</h1>
-    <h2>JAGA diri DAN keluarga<br>Internatan dirumah Saja<br>Informasi Covid-19 Indonesia</h2> <div class="covid_info"><div class="covid_head"> <h3 id="tanggal"></h3>
-	<span class="indicator is-pulsing"></span>
+	 <h2>JAGA diri DAN keluarga</h2>
+	  <h3>Internetan dirumah Saja</h3>
+    <h2>Informasi Covid-19 Indonesia</h2>
+    <div class="covid_info">
+	<div class="covid_head">
+      <h3 id="tanggal"></h3><span class="indicator is-pulsing"></span>
 	</div>
-	<ul class="keterangan covid_list"> <li> 
-	<p class="kasus"><b>KASUS</b></p> <b>
-	<p id="jumlah_kasus" class="jumlah_kasus"></p> 
-	<p id="kasusharini" class="harini"></p> 
-	</li>
-	<li> <p class="positif"><b>POSITIF</b></p> 
-	<p id="jumlah_positif" class="jumlah_positif"></p>
-	<p class="harini">orang</p>
-	</li>
-	<li> <p class="meninggal"><b>MENINGGAL</b></p> 
-	<p id="jumlah_meninggal" class="jumlah_meninggal"></p>
-	<p id="meninggalharini" class="harini"></p>
-	</li> <li> <p class="sembuh"><b>SEMBUH</b></p>
-	<p id="jumlah_sembuh" class="jumlah_sembuh"></p>
-	<p class="harini">orang</p> 
-	</li> 
-	</ul>
+      <ul class="keterangan covid_list">
+        <li>
+          <p class="kasus"><b>KASUS</b></p>
+          <b><p id="jumlah_kasus" class="jumlah_kasus"></p>
+          <p id="kasusharini" class="harini"></p>
+        </li>
+        <li>
+          <p class="positif"><b>POSITIF</b></p>
+          <p id="jumlah_positif" class="jumlah_positif"></p>
+          <p class="harini">orang</p>
+        </li>
+        <li>
+          <p class="meninggal"><b>MENINGGAL</b></p>
+          <p id="jumlah_meninggal" class="jumlah_meninggal"></p>
+          <p id="meninggalharini" class="harini"></p>
+        </li>
+        <li>
+          <p class="sembuh"><b>SEMBUH</b></p>
+          <p id="jumlah_sembuh" class="jumlah_sembuh"></p>
+          <p class="harini">orang</p>
+        </li>
+      </ul>
 	</div>
 	</div>
 	</div>
